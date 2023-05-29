@@ -1,0 +1,316 @@
+.menu{
+    position: absolute;
+    width: 100vw;
+    height: 163px;
+    left: 0px;
+    top: 0px;
+    background: url(../Image/e4d5f6093ae83032edd4f6d1e3f2e25c.jpg);
+}
+
+/* Logo */
+.menu img {
+    position: absolute;
+    width: 193px;
+    height: 142px;
+    left: 32px;
+    top: 0px;
+    transition: transform 1s;
+}
+.menu img:hover {
+    transform: rotate(-10deg);
+  }
+
+
+/* ICON COW */
+
+.iconc img {
+    position: absolute;
+    width: 79px;
+    height: 81px;
+    left: 495px;
+    top: 71px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+    transition: transform 0.5s;
+    border-radius: 10%;
+}
+.iconc img:hover {
+    transform: rotateY(360deg);
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+}
+
+/* ICON PIG */
+.iconp img {
+    position: absolute;
+    width: 79px;
+    height: 81px;
+    left: 608px;
+    top: 71px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+    transition: transform 0.5s;
+    border-radius: 10%;
+}
+.iconp img:hover {
+    transform: rotateY(360deg);
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+}
+
+/* ICON CHICKEN */
+.icong img {
+    position: absolute;
+    width: 79px;
+    height: 81px;
+    left: 721px;
+    top: 71px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+    transition: transform 0.5s;
+    border-radius: 10%;
+}
+.icong img:hover {
+    transform: rotateY(360deg);
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+}
+
+/* ICON FISH */
+.iconf img {
+    position: absolute;
+    width: 79px;
+    height: 81px;
+    left: 834px;
+    top: 71px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+    transition: transform 0.5s;
+    border-radius: 10%;
+}
+.iconf img:hover {
+    transform: rotateY(360deg);
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+}
+
+/* CADASTRO */
+.c {
+    position: relative;
+    display: inline-block;
+    background-color: rebeccapurple;
+    height: 1px;
+  }
+.c p{
+    position: relative;
+    display: inline-block;
+
+    width: 170px;
+    height: 50px;
+    left: 1131px;
+    top: 25px;
+    display: center;
+
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    
+    color: #000000;
+}    
+
+.retangulo {
+    position: absolute;
+    left: 1140px;
+    top: 30px;
+    width: 150px;
+    height: 70px;
+    background-image: linear-gradient(to right, #ff9090, #fb4242);
+    opacity: 0;
+    border-radius: 15%;
+    transition: opacity 0.5s;
+  }
+  
+  .c:hover .retangulo {
+    opacity: 1;
+  }
+
+/* ENTRAR++ */
+.e {
+    position: relative;
+    display: inline-block;
+    height: 1px;
+    width: 1px;
+  }
+.e p{
+    position: relative;
+    display: inline-block;
+
+    width: 111px;
+    height: 34px;
+    left: 1160px;
+    top: 25px;
+
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    
+    color: #000000;
+}    
+.retangulo2 {
+    position: absolute;
+    top: 30px;
+    left: 1140px;
+    width: 150px;
+    height: 70px;
+    background-image: linear-gradient(to right, #ff9090, #fb4242);
+    opacity: 0;
+    border-radius: 15%;
+    transition: opacity 0.5s;
+  }
+  
+  .e:hover .retangulo2 {
+    opacity: 1;
+  }
+
+  /* PROJETO ANIMATED */
+  .anima1 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 27px;
+    top: 223px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .anima2 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 137px;
+    top: 187px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .anima3 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 239px;
+    top: 223px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .anima4 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 371px;
+    top: 187px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .anima5 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 501px;
+    top: 223px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .anima6 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 631px;
+    top: 187px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+
+  .anima7 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 743px;
+    top: 223px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .anima8 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 862px;
+    top: 187px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .anima9 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 964px;
+    top: 223px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .anima10 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 1087px;
+    top: 187px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .anima11 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 1200px;
+    top: 223px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .anima12 img{
+    position: absolute;
+    width: 95px;
+    height: 89px;
+    left: 1313px;
+    top: 187px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+
+  /* AD */
+  .ad1 img{
+    position: absolute;
+    width: 714px;
+    height: 211px;
+    left: 20px;
+    top: 349px;
+    transition: transform 0.7s;
+    border-radius: 18px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .ad1 img:hover{
+    transform: scale(0.9);
+  }
+  .ad2 img{
+    position: absolute;
+    width: 714px;
+    height: 211px;
+    left: 760px;
+    top: 349px;
+    transition: transform 0.7s;
+    border-radius: 18px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+  }
+  .ad2 img:hover{
+    transform: scale(0.9);
+  }
+
+  /* VENDA */
+  .tit {
+    position: absolute;
+    width: 367px;
+    height: 48px;
+    left: 546px;
+    top: 582px;
+    
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #000000;    
+  }
