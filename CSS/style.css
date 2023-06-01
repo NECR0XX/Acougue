@@ -700,6 +700,7 @@
 .rd2 img:hover{
   transform: scale(1.1);
   transition: 1s;
+  cursor: pointer;
 }
 .rd3 img{
   position: absolute;
@@ -712,4 +713,5 @@
 .rd3 img:hover{
   transform: scale(1.1);
   transition: 1s;
+  cursor: pointer;
 }
