@@ -1,6 +1,6 @@
 .menu{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 163px;
     left: 0px;
     top: 0px;
@@ -269,6 +269,23 @@
     text-align: center;
     
     color: #000000;    
+  }
+  .titu p{
+    position: absolute;
+    width: 570px;
+    height: 63px;
+    left: 50px;
+    top: 10px;
+    
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    
+    color: #9c0000;
+    text-shadow: 0 5px 10px #000000;
   }
 .ven1 img{
   position: absolute;
@@ -663,13 +680,450 @@
   color: #870000;
 }
 
+/* COW */
+.table {
+  position: absolute;
+  width: 519px;
+  height: 722px;
+  left: 178px;
+  top: 192px;
+  
+  background: #131313;
+  border-radius: 15px;
+}
+.table a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.table a:hover{
+  text-decoration: none;
+  color: #d40000;
+  cursor: pointer;
+}
+.tablef {
+  position: absolute;
+  width: 519px;
+  height: 722px;
+  left: 461px;
+  top: 192px;
+  
+  background: #131313;
+  border-radius: 15px;
+}
+.tablef a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.tablef a:hover{
+  text-decoration: none;
+  color: #d40000;
+  cursor: pointer;
+}
+.table2 {
+  position: absolute;
+  width: 519px;
+  height: 722px;
+  left: 778px;
+  top: 192px;
+  
+  background: #131313;
+  border-radius: 15px;
+}
+.table2 a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.table2 a:hover{
+  text-decoration: none;
+  color: #d40000;
+  cursor: pointer;
+}
+.carne1 img{
+  position: absolute;
+  width: 519px;
+  height: 101px;
+  
+  border-radius: 15px;
+}
+.carne1 p {
+  position: absolute;
+  width: 411px;
+  height: 54px;
+  left: 50px;
+  top: 50px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 52px;
+  text-align: center;
+  
+  color: #FF0000;
+}
+.carne2 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 13px;
+  top: 120px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.carne3 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 13px;
+  top: 200px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.carne4 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 12px;
+  top: 280px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.carne5 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 13px;
+  top: 360px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.carne6 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 13px;
+  top: 440px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.carne7 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 13px;
+  top: 520px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.carne8 p{
+  position: absolute;
+  width: 490px;
+  height: 33px;
+  left: 13px;
+  top: 600px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.fish1 img{
+  position: absolute;
+  width: 519px;
+  height: 101px;
+  
+  border-radius: 15px;
+}
+.fish1 p {
+  position: absolute;
+  width: 411px;
+  height: 54px;
+  left: 50px;
+  top: 50px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 52px;
+  text-align: center;
+  
+  color: #FF0000;
+}
+.fish2 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 13px;
+  top: 120px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.fish3 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 13px;
+  top: 200px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.fish4 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 12px;
+  top: 280px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.fish5 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 13px;
+  top: 360px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.fish6 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 13px;
+  top: 440px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.fish7 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 13px;
+  top: 520px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.carn1 img{
+  position: absolute;
+  width: 519px;
+  height: 101px;
+  
+  border-radius: 15px;
+}
+.carn1 p {
+  position: absolute;
+  width: 411px;
+  height: 54px;
+  left: 50px;
+  top: 50px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 52px;
+  text-align: center;
+  
+  color: #FF0000;
+}
+.carn2 p{
+  position: absolute;
+  width: 490px;
+  height: 33px;
+  left: 14px;
+  top: 120px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.carn3 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 14px;
+  top: 200px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.carn4 p{
+  position: absolute;
+  width: 485px;
+  height: 33px;
+  left: 14px;
+  top: 280px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.carn5 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 16px;
+  top: 360px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.carn6 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 16px;
+  top: 440px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+.carn7 p{
+  position: absolute;
+  width: 480px;
+  height: 33px;
+  left: 16px;
+  top: 520px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.carn8 p{
+  position: absolute;
+  width: 490px;
+  height: 33px;
+  left: 16px;
+  top: 600px;
+  
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  
+  color: #FFFFFF;
+}
+
 /* RODAPÉ */
 .sidebar {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 82px;
   left: 0px;
   top: 1450px;
+  
+  background: linear-gradient(0deg, #CA9D5D 26.83%, rgba(157, 104, 64, 0) 100%);
+}
+.sidebarc {
+  position: absolute;
+  width: 100%;
+  height: 82px;
+  left: 0px;
+  top: 950px;
   
   background: linear-gradient(0deg, #CA9D5D 26.83%, rgba(157, 104, 64, 0) 100%);
 }
@@ -714,4 +1168,138 @@
   transform: scale(1.1);
   transition: 1s;
   cursor: pointer;
+}
+
+/* CADASTRO */
+.base {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 669px;
+  height: 760px;
+  left: 386px;
+  top: 15px;
+  
+  background: #FFEED6;
+  border: 5px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.name input{
+  position: absolute;
+  width: 553px;
+  height: 47px;
+  left: 50px;
+  top: 154px;
+  
+  background: #FFF7EA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.email input{
+  position: absolute;
+  width: 553px;
+  height: 47px;
+  left: 50px;
+  top: 230px;
+  
+  background: #FFF7EA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.senha input{
+  position: absolute;
+  width: 553px;
+  height: 47px;
+  left: 50px;
+  top: 306px;
+  
+  background: #FFF7EA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.estado input{
+  position: absolute;
+  width: 553px;
+  height: 47px;
+  left: 50px;
+  top: 382px;
+  
+  background: #FFF7EA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.cidade input{
+  position: absolute;
+  width: 553px;
+  height: 47px;
+  left: 50px;
+  top: 458px;
+  
+  background: #FFF7EA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.cpf input{
+  position: absolute;
+  width: 553px;
+  height: 47px;
+  left: 50px;
+  top: 534px;
+  
+  background: #FFF7EA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+button {
+  position: absolute;
+  width: 553px;
+  height: 69px;
+  left: 50px;
+  top: 629px;
+  
+  background: #ff0000;
+  border-radius: 50px;
+  cursor: pointer;
+}
+button:hover {
+  background: linear-gradient(0deg, #ff0000 26.83%, rgba(126, 0, 0, 0) 100%);
+}
+span {
+  margin-left: 9pc;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.sucess {
+  margin-left: 11.5pc;
+  margin-top: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+.back {
+  margin-top: -90px;
+  margin-left: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.back a{
+  color: #870000;
+  text-decoration: none;
+}
+.back a:hover{
+  color: #fe0000;
+  text-decoration: underline;
+}
+.log {
+  margin-top: -20px;
+  margin-left: 38pc;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.log a{
+  color: #870000;
+  text-decoration: none;
+}
+.log a:hover{
+  color: #fe0000;
+  text-decoration: underline;
 }
