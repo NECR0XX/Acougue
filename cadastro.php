@@ -13,9 +13,11 @@ require_once 'db.php';
     <title>Açougue Carne Quadrada - Cadastro</title>
 </head>
 <body>
+
 <div class="container-formulario">
-<section>
-        <div class="base">
+    <section class="base">
+        <div>
+
     <?php
     if (isset($_POST['submit'])) {
         $nome = $_POST['nome'];
@@ -50,26 +52,22 @@ require_once 'db.php';
     }
     ?>
 
-
+            <!-- CADASTRO -->
             <div class="titu"><p>Açougue Carne Quadrada</p></div>
+
             <form method="post">
+
             <div class="name"><input type="text" name="nome" placeholder="Nome" required></br></div>
-
             <div class="email"><input type="email" name="email" placeholder="E-mail" required></br></div>
-
             <div class="senha"><input type="password" name="senha" placeholder="Senha" required></br></div>
-
             <div class="estado"><input type="text" name="estado" placeholder="Estado" required></br></div>
-
             <div class="cidade"><input type="text" name="cidade" placeholder="Cidade" required></br></div>
-
             <div class="cpf"><input type="text" name="cpf" placeholder="CPF" required></br></div>
 
             <div class="back"><a href="index.html">Voltar</a></br></div>
-            
             <div class="log"><a href="login.html">Logar</a></br></div>
-            
-            <button type="submit" name="submit" value="agendar">CADASTRAR</button>
+            <button type="submit" name="submit" value="cadastrar">CADASTRAR</button>
+
             </form>
         </div>
     </section>
