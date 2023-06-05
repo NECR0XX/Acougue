@@ -10,7 +10,7 @@ require_once 'db.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Image/Baked_Potato.webp" type="image/png">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>Açougue Carne Quadrada - Cadastro</title>
+    <title>Açougue - Cadastro</title>
 </head>
 <body>
 
