@@ -1,8 +1,4 @@
 <?php
-$Nome = "Acém";
-$Porcao = "";
-$Tipo = "";
-$Preco = "R$25,90";
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['submit'])) {
     $Nome = $_GET['Nome'] ?? "";
@@ -16,6 +12,5 @@ echo "<strong>Porção:</strong> " . $Porcao . "<br>";
 echo "<strong>Tipo:</strong> " . $Tipo . "<br>";
 echo "<strong>Preço:</strong> " . $Preco . "<br>";
 
-/*
-echo "<strong>O valor total das frutas é:</strong> R$" . number_format($total_value, 2); */
+/* echo "<strong>O valor total das frutas é:</strong> R$" . number_format($total_value, 2); */
 ?>
