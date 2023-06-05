@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Image/Cooked_Chicken.webp" type="image/png">
     <link rel="stylesheet" href="./CSS/Style.css">
-    <title>Açougue -</title>
+    <title>Açougue - Fígado</title>
 </head>
 <body>
     
@@ -28,32 +28,30 @@
       </div>
 
       <!-- CARRINHO -->
-      <div class="carrinho"><a href="carrinho.html"><img src="Image/carrinho.png"></a></div>
+      <div class="carrinho"><a href="carrinho.php"><img src="Image/carrinho.png"></a></div>
   </section>
 
 <!-- VENDA -->
 <section>
+  <form action="carrinho.php" method="get">
   <div class="produto"><img src="Image/figado.png"></div>
   <div class="nome"><p>Fígado</p></div>
-  <div class="desc1"><p>Marca: Carne in Natura </br>Modelo:R$ 25,90/kg -</br> cubos, moída e peça/pedaço</p></div>
+  <div class="desc1"><p>Marca: Carne in Natura </br>Modelo:R$ 25,90/kg -</br> peça/pedaço</p></div>
   <div class="desc2"><p>Conservação: resfriado </br>Temperado: não</p></div>
   <div class="prec1"><p>A Partir de:</p></div>
-  <div class="prec2"><p>R$25,90</p></div>
-  <div class="tip1"><p>Tipo de corte:</p></div>
-  <div class="tip2"><select name="Tipo" required>
-    <option value="selecione">Selecione</option>
-    <option value="Cubos">Cubos</option>
-    <option value="Moída">Moída</option>
-    <option value="Peça/Pedaços">Peça/Pedaços</option>
-    </select></div>
+  <div class="prec2"><p>R$15,90</p></div>
+
   <div class="tip3"><p>Porcionamento:</p></div>
+
   <div class="tip4"><select name="Porção" required>
     <option value="selecione">Selecione</option>
-    <option value="01 pç 500g: R$12,95">01 pç 500g: R$12,95</option>
-    <option value="01 pç 750g: R$19,92">01 pç 750g: R$19,92</option>
-    <option value="01 pç 1Kg: R$25,90">01 pç 1Kg: R$25,90</option>
+    <option value="01 pç 500g: R$7,95">01 pç 500g: R$7,95</option>
+    <option value="01 pç 750g: R$12,24">01 pç 750g: R$12,24</option>
+    <option value="01 pç 1Kg: R$15,90">01 pç 1Kg: R$15,90</option>
     </select></div>
-  <div class="compra"><a href="acem.html">COMPRA</a></div>
+
+    <div class="compra"><button>CARRINHO</button></div>
+  </form>
 </section>
 
 <!-- RODAPÉ -->

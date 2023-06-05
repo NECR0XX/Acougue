@@ -27,12 +27,18 @@
       </div>
 
       <!-- CARRINHO -->
-      <div class="carrinho"><a href="carrinho.html"><img src="Image/carrinho.png"></a></div>
+      <div class="carrinho"><a href="carrinho.php"><img src="Image/carrinho.png"></a></div>
 </section>
 
 <!-- CARRINHO -->
-<section>
-    <div></div>
+<section class="bas">
+  <div class="infos">
+<?php
+
+include_once('data.php');
+
+?>
+</div>
 </section>
 
 
