@@ -1,76 +1,182 @@
 <?php
-$Nome = [
-    'Nome1' => 'Acém','Preco1' => '',
-    'Nome2' => 'Costela', 'Preco2' => '',
-    'Nome3' => 'Fraldinha', 'Preco3' => '',
-    'Nome4' => 'Músculo', 'Preco4' => '',
-    'Nome5' => 'Peito', 'Preco5' => '',
-    'Nome6' => 'Alcatra', 'Preco6' => '',
-    'Nome7' => 'Contra Filé', 'Preco7' => '',
-    'Nome8' => 'Coxão Duro', 'Preco8' => '',
-    'Nome9' => 'Coxão Mole', 'Preco9' => '',
-    'Nome10' => 'Filé Mignon', 'Preco10' => '',
-    'Nome11' => 'Lagarto', 'Preco11' => '',
-    'Nome12' => 'Patinho', 'Preco12' => '',
-    'Nome13' => 'Maminha', 'Preco13' => '',
-    'Nome14' => 'Picaha', 'Preco14' => '',
-    'Nome15' => 'Bisteca', 'Preco15' => '',
-    'Nome16' => 'Barriga', 'Preco16' => '',
-    'Nome17' => 'Costelinha', 'Preco17' => '',
-    'Nome18' => 'Lombo', 'Preco18' => '',
-    'Nome19' => 'Pernil', 'Preco19' => '',
-    'Nome20' => 'Toucinho', 'Preco20' => '',
-    'Nome21' => 'Linguiça Pura', 'Preco21' => '',
-    'Nome22' => 'Linguiça Mista', 'Preco22' => '',
-    'Nome23' => 'Linguiça Toscana', 'Preco23' => '',
-    'Nome24' => 'Asa', 'Preco24' => '',
-    'Nome25' => 'Coxa', 'Preco25' => '',
-    'Nome26' => 'Coxinha da Asa', 'Preco26' => '',
-    'Nome27' => 'Filé de Frango', 'Preco27' => '',
-    'Nome28' => 'Frango à Passarinho', 'Preco28' => '',
-    'Nome29' => 'Frango Inteiro', 'Preco29' => '',
-    'Nome30' => 'Frango Caipira', 'Preco30' => '',
-    'Nome31' => 'Sobrecoxa', 'Preco31' => '',
-    'Nome32' => 'Tulipa', 'Preco32' => '',
-    'Nome33' => 'Coração', 'Preco33' => '',
-    'Nome34' => 'Dorço', 'Preco34' => '',
-    'Nome35' => 'Fígado', 'Preco35' => '',
-    'Nome36' => 'Moela', 'Preco36' => '',
-    'Nome37' => 'Pé', 'Preco37' => '',
-    'Nome38' => 'Filé de Tilápia', 'Preco38' => '',
-    'Nome39' => 'Filé de Salmão', 'Preco39' => '',
-    'Nome40' => 'Atum', 'Preco40' => '',
-    'Nome41' => 'Sardinha', 'Preco41' => '',
-    'Nome42' => 'Camarão', 'Preco42' => '',
-    'Nome43' => 'Lagosta', 'Preco43' => '',
-    'Nome44' => 'Sal Grosso', 'Preco44' => '',
-    'Nome45' => 'Carvão JP Premium', 'Preco45' => '',
-    'Nome46' => 'Sal de Parrilha', 'Preco46' => '',
-    'Nome47' => 'Sal de Parrilha com cebola e alho', 'Preco47' => '',
-    'Nome48' => 'Coca Cola', 'Preco48' => '',
-    'Nome49' => 'Heineken', 'Preco49' => '',
-    'Nome50' => 'Brahma', 'Preco50' => '',
-    'Nome51' => 'Pepsi', 'Preco51' => '',
+/* REVER
+$Produtos = [
+    ['Nome' => 'Acém',
+    'Preco' => 'R$25,90'],
+
+    ['Nome' => 'Costela', 
+    'Preco' => 'R$27.90',],
+
+    ['Nome' => 'Fraldinha', 
+    'Preco' => 'R$22.45',],
+
+    ['Nome' => 'Músculo', 
+    'Preco' => 'R$20.70',],
+
+    ['Nome' => 'Peito', 
+    'Preco' => 'R$24.90',],
+
+    ['Nome' => 'Alcatra', 
+    'Preco' => 'R$49.90',],
+
+    ['Nome' => 'Contra Filé', 
+    'Preco' => 'R$26.90',],
+
+    ['Nome' => 'Coxão Duro', 
+    'Preco' => 'R$22.70',],
+
+    ['Nome' => 'Coxão Mole', 
+    'Preco' => 'R$23.70',],
+
+    ['Nome' => 'Filé Mignon', 
+    'Preco' => 'R$43.90',],
+
+    ['Nome' => 'Lagarto', 
+    'Preco' => 'R$22.90',],
+
+    ['Nome' => 'Patinho', 
+    'Preco' => 'R$23.90',],
+
+    ['Nome' => 'Maminha', 
+    'Preco' => 'R$21.60',],
+
+    ['Nome' => 'Picaha', 
+    'Preco' => 'R$32.90',],
+
+    ['Nome' => 'Bisteca', 
+    'Preco' => 'R$26.90',],
+
+    ['Nome' => 'Barriga', 
+    'Preco' => 'R$20.45',],
+
+    ['Nome' => 'Costelinha', 
+    'Preco' => 'R$29.90',],
+
+    ['Nome' => 'Lombo', 
+    'Preco' => 'R$24.90',],
+
+    ['Nome' => 'Pernil', 
+    'Preco' => 'R$19.90',],
+
+    ['Nome' => 'Toucinho', 
+    'Preco' => 'R$17.50',],
+
+    ['Nome' => 'Linguiça Pura', 
+    'Preco' => 'R$19.90',],
+
+    ['Nome' => 'Linguiça Mista', 
+    'Preco' => 'R$20.40',],
+
+    ['Nome' => 'Linguiça Toscana', 
+    'Preco' => 'R$24.90',],
+
+    ['Nome' => 'Asa', 
+    'Preco' => 'R$21.90',],
+
+    ['Nome' => 'Coxa', 
+    'Preco' => 'R$22.90',],
+
+    ['Nome' => 'Coxinha da Asa', 
+    'Preco' => 'R$20.90',],
+
+    ['Nome' => 'Filé de Frango', 
+    'Preco' => 'R$22.45',],
+
+    ['Nome' => 'Frango à Passarinho', 
+    'Preco' => 'R$27.90',],
+
+    ['Nome' => 'Frango Inteiro', 
+    'Preco' => 'R$31.90',],
+
+    ['Nome' => 'Frango Caipira', 
+    'Preco' => 'R$30.90',],
+
+    ['Nome' => 'Sobrecoxa', 
+    'Preco' => 'R$22.90',],
+
+    ['Nome' => 'Tulipa', 
+    'Preco' => 'R$20.90',],
+
+    ['Nome' => 'Coração', 
+    'Preco' => 'R$14.90',],
+
+    ['Nome' => 'Dorço', 
+    'Preco' => 'R$18.50',],
+
+    ['Nome' => 'Fígado', 
+    'Preco' => 'R$15.90',],
+
+    ['Nome' => 'Moela', 
+    'Preco' => 'R$13.90',],
+
+    ['Nome' => 'Pé', 
+    'Preco' => 'R$13.45',],
+
+    ['Nome' => 'Filé de Tilápia', 
+    'Preco' => 'R$15.90',],
+
+    ['Nome' => 'Filé de Salmão', 
+    'Preco' => 'R$17.90',],
+
+    ['Nome' => 'Atum', 
+    'Preco' => 'R$18.45',],
+
+    ['Nome' => 'Sardinha', 
+    'Preco' => 'R$20.00',],
+
+    ['Nome' => 'Camarão', 
+    'Preco' => 'R$25.90',],
+
+    ['Nome' => 'Lagosta', 
+    'Preco' => 'R$26.90',],
+
+    ['Nome' => 'Sal Grosso', 
+    'Preco' => 'R$2.99',],
+
+    ['Nome' => 'Carvão JP Premium', 
+    'Preco' => 'R$15.90',],
+
+    ['Nome' => 'Sal de Parrilha', 
+    'Preco' => 'R$21.90',],
+
+    ['Nome' => 'Sal de Parrilha com cebola e alho', 
+    'Preco' => 'R$23.90',],
+
+    ['Nome' => 'Coca Cola', 
+    'Preco' => 'R$12.00',],
+
+    ['Nome' => 'Heineken', 
+    'Preco' => 'R$8.70',],
+
+    ['Nome' => 'Brahma', 
+    'Preco' => 'R$5.00',],
+
+    ['Nome' => 'Pepsi', 
+    'Preco' => 'R$11.00',]
 ];
+*/
 
-$Preco = [
-    
-];
+if (isset($_GET['submit'])) {
+    $produto = $_GET['submit'];
+    $tipo = isset($_GET['Tipo1']) ? $_GET['Tipo1'] : '';
+    $porcao = isset($_GET['Porcao1']) ? $_GET['Porcao1'] : '';
 
-$Porcao = "";
-$Tipo = "";
+    echo '<table border="1">';
+    echo '<thead><tr><th>Produto</th><th>Tipo</th><th>Porção</th><th colspan="2">Opções</th></tr></thead>';
+    echo '<tbody>';
 
-if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['submit'])) {
+    if (!empty($produto)) {
+        echo '<tr>';
+        echo '<td>' . $produto . '</td>';
+        echo '<td>' . $tipo . '</td>';
+        echo '<td>' . $porcao . '</td>';
+        echo '<td><a style="color:black;" href="atualizar.php?id=' . '">Atualizar</a></td>';
+        echo '<td><a style="color:black;" href="deletar.php?id=' . '">Deletar</a></td>';
+        echo '</tr>';
+    }
 
-    $Porcao = $_GET['Porcao'] ?? "";
-    $Tipo = $_GET['Tipo'] ?? "";
 
-}
+    }
 
-echo "<strong>Nome:</strong> " . $Nome . "<br>";
-echo "<strong>Porção:</strong> " . $Porcao . "<br>";
-echo "<strong>Tipo:</strong> " . $Tipo . "<br>";
-echo "<strong>Preço:</strong> " . $Preco . "<br>";
 
-/* echo "<strong>O valor total das frutas é:</strong> R$" . number_format($total_value, 2); */
 ?>

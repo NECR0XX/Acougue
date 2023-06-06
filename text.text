@@ -1,0 +1,22 @@
+if (isset($_GET['submit'])) {
+    $produto = $_GET['submit'];
+    $tipo = isset($_GET['Tipo1']) ? $_GET['Tipo1'] : '';
+    $porcao = isset($_GET['Porcao1']) ? $_GET['Porcao1'] : '';
+
+    echo '<table border="1">';
+    echo '<thead><tr><th>Produto</th><th>Tipo</th><th>Porção</th><th colspan="2">Opções</th></tr></thead>';
+    echo '<tbody>';
+
+    if (!empty($produtoSelecionado)) {
+        echo '<tr>';
+        echo '<td>' . $produto . '</td>';
+        echo '<td>' . $tipo . '</td>';
+        echo '<td>' . $porcao . '</td>';
+        echo '<td><a style="color:black;" href="atualizar.php?id=' . '">Atualizar</a></td>';
+        echo '<td><a style="color:black;" href="deletar.php?id=' . '">Deletar</a></td>';
+        echo '</tr>';
+    }
+
+    echo '</tbody>';
+    echo '</table>';
+}
