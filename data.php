@@ -108,15 +108,17 @@ $Produtos = [
 if (isset($_GET['submit'])) {
     $produto = $_GET['submit'];
     $tipo = isset($_GET['Tipo1']) ? $_GET['Tipo1'] : '------------------';
+    $tipo2 = isset($_GET['Tipo2']) ? $_GET['Tipo2'] : '--------';
     $porcao = isset($_GET['Porcao1']) ? $_GET['Porcao1'] : '---------';
 
     echo '<table border="1">';
-    echo '<thead><tr><th>Produto</th><th>Tipo de Corte</th><th>Porção</th><th>Quantiddade</th><th colspan="2">Opções</th></tr></thead>';
+    echo '<thead><tr><th>Produto</th><th>Tipo</th><th>Tipo de Corte</th><th>Porção</th><th>Quantiddade</th><th colspan="2">Opções</th></tr></thead>';
     echo '<tbody>';
 
     if (!empty($produto)) {
         echo '<tr>';
         echo '<td>' . $produto . '</td>';
+        echo '<td>' . $tipo2 . '</td>';
         echo '<td>' . $tipo . '</td>';
         echo '<td>' . $porcao . '</td>';
         echo '<td>' . '<form action="confirm.php" method="get">
