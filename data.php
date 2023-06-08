@@ -105,32 +105,46 @@ $Produtos = [
 ];
 
 
+session_start(); // Iniciar a sessão (se ainda não estiver iniciada)
+
 if (isset($_GET['submit'])) {
     $produto = $_GET['submit'];
-    $tipo = isset($_GET['Tipo1']) ? $_GET['Tipo1'] : '------------------';
-    $tipo2 = isset($_GET['Tipo2']) ? $_GET['Tipo2'] : '--------';
-    $porcao = isset($_GET['Porcao1']) ? $_GET['Porcao1'] : '---------';
+    $tipo = isset($_GET['Tipo']) ? $_GET['Tipo'] : '<center>-----</center>';
+    $tipo2 = isset($_GET['Tipo2']) ? $_GET['Tipo2'] : '<center>-----</center>';
+    $porcao = isset($_GET['Porcao']) ? $_GET['Porcao'] : '<center>-----</center>';
 
-    echo '<table border="1">';
-    echo '<thead><tr><th>Produto</th><th>Tipo</th><th>Tipo de Corte</th><th>Porção</th><th>Quantiddade</th><th colspan="2">Opções</th></tr></thead>';
-    echo '<tbody>';
+    $produtosSelecionados = isset($_SESSION['produtosSelecionados']) ? $_SESSION['produtosSelecionados'] : array();
+    $produtoAtual = array(
+        'produto' => $produto,
+        'tipo' => $tipo,
+        'tipo2' => $tipo2,
+        'porcao' => $porcao
+    );
+    $produtosSelecionados[] = $produtoAtual;
 
-    if (!empty($produto)) {
-        echo '<tr>';
-        echo '<td>' . $produto . '</td>';
-        echo '<td>' . $tipo2 . '</td>';
-        echo '<td>' . $tipo . '</td>';
-        echo '<td>' . $porcao . '</td>';
-        echo '<td>' . '<form action="confirm.php" method="get">
+    $_SESSION['produtosSelecionados'] = $produtosSelecionados;
+}
+
+
+echo '<table border="1">';
+echo '<thead><tr><th>Produto</th><th>Tipo</th><th>Tipo de Corte</th><th>Porção</th><th>Quantidade</th><th colspan="3">Opções</th></tr></thead>';
+echo '<tbody>';
+
+foreach ($produtosSelecionados as $produto) {
+    echo '<tr>';
+    echo '<td>' . $produto['produto'] . '</td>';
+    echo '<td>' . $produto['tipo2'] . '</td>';
+    echo '<td>' . $produto['tipo'] . '</td>';
+    echo '<td>' . $produto['porcao'] . '</td>';
+    echo '<td>' . '<form action="confirm.php" method="get">
         <input type="number" min="1" max="1000" name="qtde"></input>' . '</td>';
-        echo '<td><a style="color:black;" href="atualizar.php?id=' . '">Atualizar</a></td>';
-        echo '<td><a style="color:black;" href="deletar.php?id=' . '">Deletar</a></td>';
-        echo '<td><a style="color:black;" href="confirm.php?id=' . '">Confirmar</a></td>';
-        echo '</tr>';
-    }
+    echo '<td><a style="color:black;" href="index2.html?id=' . '">Adicionar</a></td>';
+    echo '<td><a style="color:black;" href="deletar.php?id=' . '">Deletar</a></td>';
+    echo '<td><a style="color:black;" href="confirm.php?id=' . '">Confirmar Compra</a></td>';
+    echo '</tr>';
+}
 
-
-    }
+echo '</tbody></table>';
 
 
 ?>
