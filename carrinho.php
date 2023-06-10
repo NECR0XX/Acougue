@@ -30,7 +30,7 @@
       <div class="carrinho"><a href="carrinho.php"><img src="Image/carrinho.png"></a></div>
 </section>
 
-<!-- CARRINHO -->
+<!-- COMPRAS -->
 <section class="bas">
   <div class="infos">
 <?php
