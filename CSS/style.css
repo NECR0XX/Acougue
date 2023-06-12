@@ -1309,7 +1309,7 @@
   border-radius: 10px;
 }
 
-button {
+.cadastro button {
   position: absolute;
   width: 553px;
   height: 69px;
@@ -1321,7 +1321,7 @@ button {
   border-radius: 50px;
   cursor: pointer;
 }
-button:hover {
+.cadastro button:hover {
   background: linear-gradient(0deg, #ff0000 26.83%, rgba(126, 0, 0, 0) 100%);
 }
 span {
@@ -1611,16 +1611,23 @@ span {
   transform: scale(1.5);
   transition: 1s;
 }
-.infos {
-  color: black;
-  position: absolute;
-  width: 634px;
-  height: 696px;
-  left: 166px;
-  top: 208px;
-}
 
-/* COMPRAS */
-td {
-  margin-left: 10pc;
+/* TABLE */
+.if button{
+  background: #ff0000;
+  border-radius: 3px;
+  color: white;
+  height: 23px;
+  cursor: pointer;
+}
+.if button a{
+  text-decoration: none;
+  color: white;
+}
+table {
+  width: 1000px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 27pc auto;
+  margin-top: 15pc;
 }

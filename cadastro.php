@@ -66,7 +66,7 @@ require_once 'db.php';
 
             <div class="back"><a href="index.html">Voltar</a></br></div>
             <div class="log"><a href="login.html">Logar</a></br></div>
-            <button type="submit" name="submit" value="cadastrar">CADASTRAR</button>
+            <div class="cadastro"><button type="submit" name="submit" value="cadastrar">CADASTRAR</button></div>
 
             </form>
         </div>

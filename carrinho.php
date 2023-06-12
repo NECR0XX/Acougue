@@ -43,7 +43,7 @@ include_once('data.php');
 
 
 <!-- RODAPÉ -->
-<section class="sidebar">
+<section class="sidebarp">
   <div class="rd"><p>Açougue Carne Quadrada LTDA, CNPJ 34.105.818/0001-90 - Todos os direitos reservados.</p></div>
   <div class="rd2"><img src="Image/instagram.png"></div>
   <div class="rd3"><img src="Image/face2.png"></div>
