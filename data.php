@@ -103,6 +103,7 @@ $Produtos = [
 
     ['Preco' => 'R$11.00',]
 ];
+//$Produtos[1]['Preco']
 
 
 session_start(); // Iniciar a sessão (se ainda não estiver iniciada)
@@ -127,17 +128,18 @@ if (isset($_GET['submit'])) {
 
 
 echo '<table border="1">';
-echo '<thead><tr><th>Produto</th><th>Tipo</th><th>Tipo de Corte</th><th>Porção</th><th>Quantidade</th><th colspan="1">Opções</th></tr></thead>';
+echo '<thead><tr><th>Produto</th><th>Temperatura</th><th>Tipo de Corte</th><th>Porção</th><th>Quantidade</th><th>Preço</th><th colspan="1">Opções</th></tr></thead>';
 echo '<tbody>';
 
 foreach ($produtosSelecionados as $produto) {
     echo '<tr>';
-    echo '<td>' . $produto['produto'] . '</td>';
-    echo '<td>' . $produto['tipo2'] . '</td>';
-    echo '<td>' . $produto['tipo'] . '</td>';
-    echo '<td>' . $produto['porcao'] . '</td>';
-    echo '<td>' . '<form action="confirm.php" method="get">
-        <input type="number" min="1" max="1000" name="qtde"></input>' . '</td>';
+    echo '<td><center>' . $produto['produto'] . '</center></td>';
+    echo '<td><center>' . $produto['tipo2'] . '</center></td>';
+    echo '<td><center>' . $produto['tipo'] . '</center></td>';
+    echo '<td><center>' . $produto['porcao'] . '</center></td>';
+    echo '<td><center>' . '<form method="get">
+        <input type="number" min="1" max="1000" name="qtde" value="1"></input>' . '</center></td>';
+    echo '<td><center>' . '</center></td>';
     echo '<td><a style="color:black;" href="deletar.php?id=' . '">Deletar</a></td>';
     echo '</tr>';
 }
@@ -146,8 +148,8 @@ echo '</tbody></table>';
 
 echo '<table border="1">';
 echo '<tbody>';
-echo '<td id="A"><a style="color:black;" href="index2.html?id=' . '">Adicionar Mais</a></td>';
-echo '<td id="C"><a style="color:black;" href="confirm.php?id=' . '">Confirmar Compra</a></td>';
+echo '<td id="A"><a style="color:black;" href="index2.html?id=' . '">Adicionar Mais Produtos</a></td>';
+echo '<td id="C"><a style="color:black;" href="confirm.php?id=' . '">Continuar</a></td>';
 echo '</tbody></table>';
 
 
